@@ -10,17 +10,17 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3DD23973-3EAE-FEAD-1949-41CA7AE0D5F2}</ProjectGuid>
+    <ProjectGuid>{84F37349-BA19-8B86-BCBE-9BE388A467F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>ZTH.Unity.Tool</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <NoWarn>0169;USG0001</NoWarn>
-    <DefineConstants>UNITY_6000_0_60;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_6000_0_60;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_INSPECTOR_3_2;ODIN_INSPECTOR_3_3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -61,12 +61,392 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\International Space Station\Scripts\CrossPlatformInput.cs" />
-    <Compile Include="Assets\International Space Station\Scripts\MobileInput.cs" />
-    <Compile Include="Assets\International Space Station\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\International Space Station\Scripts\StandaloneInput.cs" />
-    <Compile Include="Assets\International Space Station\Scripts\CrossPlatform.cs" />
-    <Compile Include="Assets\International Space Station\Scripts\FirstPersonController.cs" />
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\ClassBuilder.cs">
+      <Link>Runtime\ClassBuilder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Singleton\MonoSingleton.cs">
+      <Link>Runtime\Singleton\MonoSingleton.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\IStateEvents\IStateExit.cs">
+      <Link>Runtime\IStateEvents\IStateExit.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\AssetTool.cs">
+      <Link>Runtime\Tools\AssetTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\JsonTool.cs">
+      <Link>Runtime\Tools\JsonTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IWeightGetter.cs">
+      <Link>Runtime\Interfaces\IWeightGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Dictionaries\DualKeyValuePair.cs">
+      <Link>Runtime\Dictionaries\DualKeyValuePair.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\SpriteTile\SpriteTileResolver.cs">
+      <Link>Runtime\SpriteTile\SpriteTileResolver.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IRenderScaleGetter.cs">
+      <Link>Runtime\Interfaces\IRenderScaleGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAllianceColorGetter.cs">
+      <Link>Runtime\Interfaces\IAllianceColorGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\ReflectionTool.cs">
+      <Link>Runtime\Tools\ReflectionTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IIsCollidedGetter.cs">
+      <Link>Runtime\Interfaces\IIsCollidedGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\ColorTool.cs">
+      <Link>Runtime\Tools\ColorTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\MethodTool.cs">
+      <Link>Runtime\Tools\MethodTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\ObjectPool.cs">
+      <Link>Runtime\ObjectPool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ICollisionSizeGetter.cs">
+      <Link>Runtime\Interfaces\ICollisionSizeGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IRenderScaleSetter.cs">
+      <Link>Runtime\Interfaces\IRenderScaleSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\TransformTool.cs">
+      <Link>Runtime\Tools\TransformTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\StringTool.cs">
+      <Link>Runtime\Tools\StringTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAngleSetter.cs">
+      <Link>Runtime\Interfaces\IAngleSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IContentPositionGetter.cs">
+      <Link>Runtime\Interfaces\IContentPositionGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityDelta2DSetter.cs">
+      <Link>Runtime\Interfaces\IVelocityDelta2DSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\IStateEvents\IStateEnter.cs">
+      <Link>Runtime\IStateEvents\IStateEnter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityDeltaSetter.cs">
+      <Link>Runtime\Interfaces\IVelocityDeltaSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\UI\UILineRenderer.cs">
+      <Link>Runtime\UI\UILineRenderer.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\CmdTool.cs">
+      <Link>Runtime\Tools\CmdTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ICollisionRectGetter.cs">
+      <Link>Runtime\Interfaces\ICollisionRectGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAnimFrameSetter.cs">
+      <Link>Runtime\Interfaces\IAnimFrameSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\KDTree\KDTree.cs">
+      <Link>Runtime\KDTree\KDTree.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\MathTool.cs">
+      <Link>Runtime\Tools\MathTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\TableTool.cs">
+      <Link>Runtime\Tools\TableTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IIsUsedGetter.cs">
+      <Link>Runtime\Interfaces\IIsUsedGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\GridMapper.cs">
+      <Link>Runtime\GridMapper.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IRenderScaleHolder.cs">
+      <Link>Runtime\Interfaces\IRenderScaleHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\TMProTool.cs">
+      <Link>Runtime\Tools\TMProTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IPositionSetter.cs">
+      <Link>Runtime\Interfaces\IPositionSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\AudioManager\AudioManager.cs">
+      <Link>Runtime\AudioManager\AudioManager.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAnimAtlasGetter.cs">
+      <Link>Runtime\Interfaces\IAnimAtlasGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IStateSetter.cs">
+      <Link>Runtime\Interfaces\IStateSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Enums\Direction.cs">
+      <Link>Runtime\Enums\Direction.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IOriginChecker.cs">
+      <Link>Runtime\Interfaces\IOriginChecker.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\CoroutineRunner.cs">
+      <Link>Runtime\CoroutineRunner.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\KDTree\KDNode.cs">
+      <Link>Runtime\KDTree\KDNode.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\EffectTool.cs">
+      <Link>Runtime\Tools\EffectTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IStateHolder.cs">
+      <Link>Runtime\Interfaces\IStateHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\SpriteAnimation\SpriteAnimationResolver.cs">
+      <Link>Runtime\SpriteAnimation\SpriteAnimationResolver.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\TextureTool.cs">
+      <Link>Runtime\Tools\TextureTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IIsRenderableGetter.cs">
+      <Link>Runtime\Interfaces\IIsRenderableGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\LinkedListEmpty.cs">
+      <Link>Runtime\LinkedListEmpty.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ICollisionCORNoiseGetter.cs">
+      <Link>Runtime\Interfaces\ICollisionCORNoiseGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\AssetBundle\AssetBundleManager.cs">
+      <Link>Runtime\AssetBundle\AssetBundleManager.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IIsCollidedSetter.cs">
+      <Link>Runtime\Interfaces\IIsCollidedSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\AnimationTool.cs">
+      <Link>Runtime\Tools\AnimationTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IRectGetter.cs">
+      <Link>Runtime\Interfaces\IRectGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\InputTool.cs">
+      <Link>Runtime\Tools\InputTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ISizeGetter.cs">
+      <Link>Runtime\Interfaces\ISizeGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Observer\ObserverAttribute.cs">
+      <Link>Runtime\Observer\ObserverAttribute.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IPositionHolder.cs">
+      <Link>Runtime\Interfaces\IPositionHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\IStateEvents\IStateUpdate.cs">
+      <Link>Runtime\IStateEvents\IStateUpdate.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IScaleHolder.cs">
+      <Link>Runtime\Interfaces\IScaleHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IDirectionGetter.cs">
+      <Link>Runtime\Interfaces\IDirectionGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityDelta2DGetter.cs">
+      <Link>Runtime\Interfaces\IVelocityDelta2DGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\CoroutineTool.cs">
+      <Link>Runtime\Tools\CoroutineTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Observer\Observer.cs">
+      <Link>Runtime\Observer\Observer.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ITileSizeGetter.cs">
+      <Link>Runtime\Interfaces\ITileSizeGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAnimFrameHolder.cs">
+      <Link>Runtime\Interfaces\IAnimFrameHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IMassCenter2DGetter.cs">
+      <Link>Runtime\Interfaces\IMassCenter2DGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ITileCountGetter.cs">
+      <Link>Runtime\Interfaces\ITileCountGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\QuadTree\QuadTree.cs">
+      <Link>Runtime\QuadTree\QuadTree.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IRenderPositionOffsetGetter.cs">
+      <Link>Runtime\Interfaces\IRenderPositionOffsetGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAngleHolder.cs">
+      <Link>Runtime\Interfaces\IAngleHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocitySetter.cs">
+      <Link>Runtime\Interfaces\IVelocitySetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\SpriteTile\SpriteTile.cs">
+      <Link>Runtime\SpriteTile\SpriteTile.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IIsUsedHolder.cs">
+      <Link>Runtime\Interfaces\IIsUsedHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IScaleGetter.cs">
+      <Link>Runtime\Interfaces\IScaleGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Dictionaries\MultiValueDictionary.cs">
+      <Link>Runtime\Dictionaries\MultiValueDictionary.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IEffectColorGetter.cs">
+      <Link>Runtime\Interfaces\IEffectColorGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityDelta2DHolder.cs">
+      <Link>Runtime\Interfaces\IVelocityDelta2DHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\BufferTool.cs">
+      <Link>Runtime\Tools\BufferTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\RectTransformTool.cs">
+      <Link>Runtime\Tools\RectTransformTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\AutoDestroyVFX.cs">
+      <Link>Runtime\AutoDestroyVFX.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityDeltaHolder.cs">
+      <Link>Runtime\Interfaces\IVelocityDeltaHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityDeltaGetter.cs">
+      <Link>Runtime\Interfaces\IVelocityDeltaGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\CollectionTool.cs">
+      <Link>Runtime\Tools\CollectionTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\CameraNode.cs">
+      <Link>Runtime\CameraNode.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\MethodMapper.cs">
+      <Link>Runtime\MethodMapper.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\ExceptionTool.cs">
+      <Link>Runtime\Tools\ExceptionTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityHolder.cs">
+      <Link>Runtime\Interfaces\IVelocityHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocity2DGetter.cs">
+      <Link>Runtime\Interfaces\IVelocity2DGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IPosition2DGetter.cs">
+      <Link>Runtime\Interfaces\IPosition2DGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\RectTool.cs">
+      <Link>Runtime\Tools\RectTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Dictionaries\DualKeyDictionary.cs">
+      <Link>Runtime\Dictionaries\DualKeyDictionary.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\SpriteAnimation\SpriteAnimation.cs">
+      <Link>Runtime\SpriteAnimation\SpriteAnimation.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\SpatialGrid\SpatialGridTile.cs">
+      <Link>Runtime\SpatialGrid\SpatialGridTile.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IVelocityGetter.cs">
+      <Link>Runtime\Interfaces\IVelocityGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\TextGizmo.cs">
+      <Link>Runtime\TextGizmo.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\AssetBundle\AssetBundleUploader.cs">
+      <Link>Runtime\AssetBundle\AssetBundleUploader.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\KDTree\IKDData.cs">
+      <Link>Runtime\KDTree\IKDData.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAngleGetter.cs">
+      <Link>Runtime\Interfaces\IAngleGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IIsCollidedHolder.cs">
+      <Link>Runtime\Interfaces\IIsCollidedHolder.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Dictionaries\MultiKeyDictionary.cs">
+      <Link>Runtime\Dictionaries\MultiKeyDictionary.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\InstanceRenderer\InstanceRendererTool.cs">
+      <Link>Runtime\InstanceRenderer\InstanceRendererTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Singleton\Singleton.cs">
+      <Link>Runtime\Singleton\Singleton.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IMaterialGetter.cs">
+      <Link>Runtime\Interfaces\IMaterialGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\GUITool.cs">
+      <Link>Runtime\Tools\GUITool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\MeshTool.cs">
+      <Link>Runtime\Tools\MeshTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IMassGetter.cs">
+      <Link>Runtime\Interfaces\IMassGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IIsUsedSetter.cs">
+      <Link>Runtime\Interfaces\IIsUsedSetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\LevelData.cs">
+      <Link>Runtime\LevelData.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ICollisionCORGetter.cs">
+      <Link>Runtime\Interfaces\ICollisionCORGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\InstanceRenderer\InstanceRendererManager.cs">
+      <Link>Runtime\InstanceRenderer\InstanceRendererManager.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\DateTimeTool.cs">
+      <Link>Runtime\Tools\DateTimeTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\RandomSelector\WeightObject.cs">
+      <Link>Runtime\RandomSelector\WeightObject.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\RandomSelector\RandomSelector.cs">
+      <Link>Runtime\RandomSelector\RandomSelector.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\EnumTool.cs">
+      <Link>Runtime\Tools\EnumTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IAnimFrameGetter.cs">
+      <Link>Runtime\Interfaces\IAnimFrameGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IContentSizeGetter.cs">
+      <Link>Runtime\Interfaces\IContentSizeGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\MobileConsole.cs">
+      <Link>Runtime\MobileConsole.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IPositionGetter.cs">
+      <Link>Runtime\Interfaces\IPositionGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\DebugException.cs">
+      <Link>Runtime\DebugException.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IPivotGetter.cs">
+      <Link>Runtime\Interfaces\IPivotGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IStateGetter.cs">
+      <Link>Runtime\Interfaces\IStateGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Tools\ResourceTool.cs">
+      <Link>Runtime\Tools\ResourceTool.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\SpatialGrid\SpatialGrid.cs">
+      <Link>Runtime\SpatialGrid\SpatialGrid.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Dictionaries\DualKeyMultiValueDictionary.cs">
+      <Link>Runtime\Dictionaries\DualKeyMultiValueDictionary.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\ILevelGetter.cs">
+      <Link>Runtime\Interfaces\ILevelGetter.cs</Link>
+    </Compile>
+    <Compile Include="E:\Projects\ZTHUnityTool\Runtime\Interfaces\IScaleSetter.cs">
+      <Link>Runtime\Interfaces\IScaleSetter.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Projects\ZTHUnityTool\Runtime\ZTH.Unity.Tool.asmdef">
+      <Link>Runtime\ZTH.Unity.Tool.asmdef</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -541,12 +921,48 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Lib\Editor\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -557,12 +973,44 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1053,200 +1501,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="PPv2URPConverters">
-      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Updater">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
