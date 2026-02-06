@@ -1,5 +1,9 @@
-/Temp
+/.vs
+/obj
 /Logs
 /Library
+/Temp
 /Assets/Plugins
 /Assets/Plugins.meta
+/Assets/PolygonPrototype
+/Assets/PolygonPrototype.meta

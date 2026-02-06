@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.TextMeshPro", "UniT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZTH.Unity.Tool.Editor", "ZTH.Unity.Tool.Editor.csproj", "{AD7EE5FC-1FD1-3D78-C197-EECAF54FB349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3DD23973-3EAE-FEAD-1949-41CA7AE0D5F2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Editor", "UniTask.Editor.csproj", "{127E517C-761C-561A-75E0-01EB6E712AA1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{04A775C7-2931-3746-F58E-6807FED252E0}"
@@ -49,6 +51,10 @@ Global
 		{AD7EE5FC-1FD1-3D78-C197-EECAF54FB349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7EE5FC-1FD1-3D78-C197-EECAF54FB349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD7EE5FC-1FD1-3D78-C197-EECAF54FB349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD23973-3EAE-FEAD-1949-41CA7AE0D5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD23973-3EAE-FEAD-1949-41CA7AE0D5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD23973-3EAE-FEAD-1949-41CA7AE0D5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD23973-3EAE-FEAD-1949-41CA7AE0D5F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{127E517C-761C-561A-75E0-01EB6E712AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{127E517C-761C-561A-75E0-01EB6E712AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{127E517C-761C-561A-75E0-01EB6E712AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
